@@ -1,0 +1,25 @@
+{
+  "name": "dnsrecon",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/70-10/dnsrecon#readme",
+  "bugs": {
+    "url": "https://github.com/70-10/dnsrecon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/70-10/dnsrecon.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "dnsrecon": "index.js"
+  },
+  "dependencies": {
+    "citty": "0.1.6",
+    "yocto-spinner": "0.2.0"
+  }
+}
